@@ -13,5 +13,5 @@ func main() {
 }
 
 func setUpApiRoutes(app *fiber.App) {
-	app.Post("/api/solve", controllers.Solve)
+	app.Post("/api/sudoku/solve", controllers.SolveSudoku)
 }
