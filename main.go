@@ -15,7 +15,7 @@ func main() {
 	}))
 	
     setUpApiRoutes(app)
-    app.Listen(":8888")
+    app.Listen("ai-resolver.mind-ms:8888")
 }
 
 func setUpApiRoutes(app *fiber.App) {
