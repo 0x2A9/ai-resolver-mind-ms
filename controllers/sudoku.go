@@ -15,5 +15,5 @@ func SolveSudoku(c *fiber.Ctx) error {
     }
 
     services.Solve(&sudoku.Board, sudoku.SquareSize)
-    return c.JSON(sudoku.Board)
+    return c.JSON(sudoku)
 }
