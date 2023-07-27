@@ -14,7 +14,7 @@ func main() {
 	host, found := os.LookupEnv("APP_HOST")
 
     if !found {        
-		host = "ai-resolver.mind-ms"
+		host = "ai-resolver-mind-ms"
     }
 
 	app.Use(cors.New(cors.Config{
