@@ -1,13 +1,15 @@
-# 🅂🄴🅃🅃🄸🄽🄶 🅄🄿 🅃🄷🄴 🄿🅁🄾🄹🄴🄲🅃
+# AI Resolver Mind Ms
+The **microservice** component of the **AI Resolver** project. Contains predefined sudoku solving algorithm and an AI to solve sudoku (in development) 
 
-## ɪɴɪᴛɪᴀʟɪᴢᴀᴛɪᴏɴ
-- **𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙳𝚘𝚌𝚔𝚎𝚛 𝚒𝚗𝚜𝚝𝚎𝚊𝚍 𝚘𝚏 𝚖𝚊𝚗𝚞𝚊𝚕 𝚒𝚗𝚜𝚝𝚊𝚕𝚕𝚊𝚝𝚒𝚘𝚗 𝚏𝚘𝚕𝚕𝚘𝚠 𝚝𝚑𝚎 [𝚕𝚒𝚗𝚔](https://github.com/lamia-mortis/ai-resolver-docker)**
 
-- **𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚒𝚎𝚜:**
+# Set Up
+- To use the **Docker** instead of manual installation follow the ```ai-resolver-docker``` repository setup
+
+- For the **manual** installation install dependencies:
     ```
     go mod download && go mod verify
     ```
-- **𝚛𝚞𝚗 𝚝𝚑𝚎 𝚊𝚙𝚙:**
+- Run the app:
     ```
     go run main.go
     ```    
