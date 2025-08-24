@@ -7,7 +7,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
-	"github.com/lamia-mortis/ai-resolver-mind-ms/handlers"
+	"github.com/0x2A9/ai-resolver-mind-ms/handlers"
 )
 
 func main() {

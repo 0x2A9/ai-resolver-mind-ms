@@ -3,8 +3,8 @@ package handlers
 import (
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/lamia-mortis/ai-resolver-mind-ms/data"
-	"github.com/lamia-mortis/ai-resolver-mind-ms/services"
+	"github.com/0x2A9/ai-resolver-mind-ms/data"
+	"github.com/0x2A9/ai-resolver-mind-ms/services"
 )
 
 func SolveSudoku(c *fiber.Ctx) error {

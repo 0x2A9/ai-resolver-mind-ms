@@ -1,4 +1,4 @@
-module github.com/lamia-mortis/ai-resolver-mind-ms
+module github.com/0x2A9/ai-resolver-mind-ms
 
 go 1.20
 
